@@ -4,6 +4,8 @@ clear
 echo "\033[1;93m#Bismillah"
 figlet  "Bismillah"
 echo ""
+apt update
+apt upgrade
 echo "$(tput setaf 5) Subscribe < Technical Mujeeb YT channel For more Termux videos "
 echo ""
 echo "$(tput setaf 10) Installing FIGLET......."
