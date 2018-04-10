@@ -1,6 +1,7 @@
 #!/bin/sh
 
 clear
+cd 
 echo "\033[1;93m#Bismillah"
 figlet  "Bismillah"
 echo ""
@@ -39,4 +40,5 @@ echo "$(tput setaf 3) Subscribe Technical Mujeeb.."
 echo "|-----------------------------|"
 echo ""
 echo "Now Run This Tool."
-echo ""
+cd LazyFiglet 
+
