@@ -21,10 +21,12 @@ apt install nodejs
 echo ""
 echo "$(tput setaf 5) Installing FIGLET-cli......."
 npm install figlet
+
 figlet -f Bubble "installing figlet CLI"
 npm install -g figlet-cli
 echo ""
 echo "\033[1;91m"
+
 cowsay "Finished"
 
 figlet -f small "Done!"
